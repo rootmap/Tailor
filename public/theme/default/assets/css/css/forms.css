@@ -1,0 +1,385 @@
+/* 
+    Document   : forms
+    Created on : Aug 26, 2015, 4:58:21 PM
+    Author     : sarfraz yousuf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: BrandonText;
+}
+
+footer.footer-b, footer p {
+    font-family: trebuchet ms;
+}
+
+footer a {
+    color: #847c77 !important;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #fe5b60 !important;
+}
+
+body.public-home.signup_page, body.public-home.login_page {
+    /*background-color: #fff !important;*/
+	    /*background-image: none !important;*/
+}
+
+body.signup_page .m-top-30p {
+    margin-top: 8%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0px;
+}
+
+#sign-up, input[type="password"] {
+    margin: 0 !important;
+}
+
+body.signup_page .login-position-inner {
+     box-shadow: none !important;
+}
+
+.login-position-inner {
+    background-color: transparent !important; 
+    border-radius: 0; 
+}
+
+.login_main_margin {
+    margin: 10px 0 50px 0px !important;
+}
+
+.main-hedding-sign{margin:0; padding:5% 0 0;}
+.main-hedding-sign > div{padding:0;}
+.main-hedding-sign > div > h1{color: rgba(137,198,189,0.7); font-family: trebuchet ms !important; font-size: 30px;}
+
+body.signup_page h3.omb_authTitle {
+    background-color: transparent !important;
+    text-align: left;
+    padding: 4% 0 0 5%!important;
+}
+h3.omb_authTitle a {
+    color: #fff !important;
+    font-family: raleway;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+body.signup_page .placeorder_page, form label {
+    text-transform: capitalize;
+    color: #847c77;
+    /*font-family: trebuchet ms !important;*/
+}
+
+
+body.signup_page .m-bottom {
+    margin-bottom: 6px !important;
+}
+body.signup_page footer{
+    display:none;
+    /*font-family: trebuchet ms !important;*/
+}
+body.login_page footer, body.authenticate_page footer{
+    display:none;
+    /*font-family: trebuchet ms !important;*/
+}
+body.forgot_password_page footer{
+    display:none;
+    /*font-family: trebuchet ms !important;*/
+}
+
+/* top navigation */
+.sign-up-nav{padding: 1.4% 2% 0;}
+.sign-up-nav div ul{margin: -12px 0 0; width:100%;}
+.sign-up-nav div ul li a{color:#8c8c8c !important; text-decoration:none; font-size: 15px; font-weight: 500;}
+.sign-up-nav div ul li a:hover{color:#000 !important; background:none !important;}
+
+
+/* login page */
+.login-nav{
+	padding: 0 2%;
+    margin: -1% auto;
+	}
+
+.login_page .login-logo, .contact_page .login-logo {
+    /*margin-top: 2px;*/
+}
+
+.login_page .login-position {
+    padding: 4% !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0px;
+    margin-top: 110px;
+}
+
+.login_page .login-position .omb_authTitle {
+    background: transparent !important;
+    border-radius: 0 !important;
+    color: #847c77;
+    font-family: "trebuchet ms";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    padding: 30px 0;
+    /*border-bottom: 1px dashed #f3f3f3;*/
+    text-align: left;
+    border-color: rgba(137,198,189,0.7);
+}
+
+.login_page .omb_authTitle::after {
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-top: none !important;
+    bottom: -9px;
+    content: 0 !important;
+    height: 0;
+}
+
+.login_page .login-position-inner h3,
+.fp-login-position h3, 
+body.login_page .login-position-inner h3, 
+body.login_page .fp-login-position h3,
+body.authenticate_page .fp-login-position h3,
+body.authenticate_page .login-position-inner h3
+{
+    padding: 0 0 5px !important;
+	text-align: left;
+}
+
+.login_page #login-form .form-content {
+    background: transparent !important;
+    border-radius: 0 0 5px 5px !important;
+    box-shadow: none !important;
+    padding: 20px 0px !important;
+}
+
+.login_page .login-position-inner h3.omb_authTitle a {
+    color: #fff !important;
+    font-family: raleway;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*body.login_page, form label {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #b5b0ae;
+    font-weight: 100;
+    line-height: 0;
+}*/
+
+.login_page #login-form .form-content {
+    padding: 0 !important;
+}
+
+.login_page input#omb_input_text_field, .authenticate_page input#omb_input_text_field {
+    max-height: 40px;
+    border-radius: 0px !important;
+    border: 1px solid #FFFFFF;
+    background-color: transparent !important;
+    color:#fff !important;
+    text-shadow: none;
+}
+
+.url-text-login p {
+    text-align: left;
+    line-height: 0;
+    margin: 0;
+    padding: 10px 0 20px;
+    font-size: 15px;
+	text-transform: initial;
+}
+
+.url-text-login p a {
+    text-decoration: none;
+    color: rgba(59,123,113,0.7);
+}
+
+.url-text-login p a:hover {
+    text-decoration: none;
+    color: #3b857a; 
+}
+
+body.login_page .url-text-login p a, body.authenticate_page .url-text-login p a {
+    color:#fff;
+}
+
+body.login_page .url-text-login p a:hover, body.authenticate_page .url-text-login p a:hover{
+    color:#ccc;
+}
+
+/* top navigation */
+.login-nav{padding: 1% 2% 0;}
+.login-nav div ul{margin: -12px 0 0;}
+.login-nav div ul li a{color:#8c8c8c !important; text-decoration:none; font-size: 15px; font-weight: 500;}
+.login-nav div ul li a:hover{color:#000 !important; background:none !important;}
+
+/* forget pass */
+body.forgot_password_page{
+	background-image:url(../../img/forget-back.jpg);
+	background-size:cover;
+	background-position: 0 60px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	}
+body.authenticate_page {
+	background-image:url(../../img/forget-back.jpg);
+	background-size:cover;
+	background-position: 0 60px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+}   
+.forget_main_margin{
+	padding:150px 0 !important;
+	}
+.forget_main_margin .fp-login-position {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+    padding: 3% 2% 2% !important;
+    border-radius: 0 !important;
+    border: none;
+}
+.forget_subTitle {
+    color: #fff !important;
+    font-size: 21px !important;
+    text-align: left !important;
+	line-height: 10px;
+	font-family: raleway !important;
+}
+
+.forget_main_margin #omb_input_text_field {
+    padding: 13px;
+    margin: auto;
+    font-size: 16px;
+    border: none !important;
+    background: transparent !important;
+    color: #fff !important;
+}
+.forget_text_input{border:1px solid #fff;}
+
+.forget_text_input p {
+        padding: 10px 15px !important;
+    margin: 0 !important;
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.forget_main_margin .fp-login-position p {
+    margin: 6% 0;
+    font-size: 16px;
+    color: #b5b0ae;
+}
+
+.forget_text_input div{
+	padding: 0 !important;
+    margin: -20px 0 0 !important;
+	}
+.forget-reset-but {
+    text-align: left;
+    margin-left: -5%;
+}
+.forget-reset-but .place-order-button {
+    text-transform: uppercase;
+}
+
+/* footer main */
+.wide-footer-nav > div > .links > ul > li {
+    margin-bottom: 10px;
+}
+
+.help h6 {
+    margin-bottom: 10px;
+}
+
+.social-networks h6 {
+    margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.foot-logo {
+    background-image: none !important;
+}
+
+.copyright {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: 11px;
+    padding: 10px 2% 0 1%;
+}
+.nav-loin-signup{margin:0 !important; background-color:#FFF;}
+body.forgot_password_page .navbar-fixed-top{display:none;}
+
+.sign-up-nav .signin-home-top{
+	right:0 !important;
+	top:11px !important;
+	float:right;
+	position:absolute;
+	}
+        
+        
+body.login_page ::-webkit-input-placeholder,  body.authenticate_page ::-webkit-input-placeholder{
+   color: #fff;
+   text-shadow: none;
+}
+
+body.login_page :-moz-placeholder, body.authenticate_page :-moz-placeholder{ /* Firefox 18- */
+   color: #fff;  
+   text-shadow: none;
+}
+
+body.login_page ::-moz-placeholder, body.authenticate_page ::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff; 
+   text-shadow: none;
+}
+
+body.login_page :-ms-input-placeholder, body.authenticate_page :-ms-input-placeholder{  
+   color: #fff;
+   text-shadow: none;
+}
+
+body.login_page input,body.authenticate_page input{
+    color:#fff;
+}
+
+body.login_page .input-group, body.authenticate_page .input-group{  
+    margin-top:20px;
+}
+
+.contact_page .signin-home-top a{
+    padding:6px 12px;
+}
+
+body.authenticate_page {
+	background-image:url(../../img/forget-back.jpg);
+	background-size:cover;
+	background-position: 0 60px;
+	background-color:#fff;
+	background-repeat:no-repeat;
+} 
+
+body.authenticate_page footer{
+    display:none;
+} 
+
+body.authenticate_page .login-position{
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0 !important;
+    border: medium none;
+    border-radius: 0 !important;
+    padding: 3% 2% 2% !important;
+    margin-top: 11%;
+}
+.row.login_main_margin{margin-top: 0!important}
+body.authenticate_page h3{
+    background: transparent;
+}
+
+body.authenticate_page h3 a{
+        color: #fff !important;
+    font-family: raleway;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+body.authenticate_page input{
+    border-radius:0px !important;
+}
+

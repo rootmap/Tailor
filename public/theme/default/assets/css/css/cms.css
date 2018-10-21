@@ -1,0 +1,81 @@
+/* 
+    Document   : cms
+    Created on : Aug 28, 2015, 11:45:01 AM
+    Author     : sarfraz yousuf
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body.faq_page .footer-b{display:block;}
+body.faq_page .navbar-fixed-top{display:none;}
+body.faq_page .faq-heading-back{
+	background-image: url(../../img/background-header-title.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 290px;
+    background-color: #fff;
+    background-position: -90px 0px;
+	margin: 0;
+        position: relative;
+        top:68px;
+	}
+body.faq_page .faq-content{margin:0;}
+body.faq_page a {
+    color: #69a597;
+	text-decoration:none;
+}
+.faq-hed{
+	font-family: 'BrandonGrotesque-Medium';
+    font-size: 22px;
+    margin: 95px auto;
+    font-weight: 500;
+    color: #847c77;
+    border: 1px solid #847c77;
+    display: inline-block;
+    padding: 20px 100px;
+    text-transform: uppercase;
+	}
+.faq-cat-nav{padding:15px 0;}
+.faq-quick-links{}
+.faq-quick-links li{
+	list-style-type: circle;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-left: 15px;
+	}
+.faq-cat-nav a{
+	font-size: 14px;
+    font-weight: 600;
+	}
+body.faq_page h2, body.faq_page h3{padding:20px 0 10px;}
+body.faq_page h2 a {
+    font-size: 20px;
+	line-height: 1.1;
+}
+
+body.faq_page h3 a {
+    font-size: 19px;
+	line-height: 1.1;
+}
+
+body.faq_page p {
+    padding-bottom: 15px;
+    margin: 0 0 10px;
+    /*font-size: 16px;*/
+    line-height: 1.42857143;
+}
+
+.faq-to-top{float:right; padding:20px;}
+.login-logo.cms{padding: 23px 0;}
+
+#faq_cms_page ol, #faq_cms_page ul{
+    font-size: 16px;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    padding-bottom: 15px;
+    color:#666;
+}

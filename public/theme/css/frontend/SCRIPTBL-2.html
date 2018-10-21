@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		CakePHP: the rapid development php framework:
+		Errors	</title>
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" /><link rel="stylesheet" type="text/css" href="/css/cake.generic.css" /></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://cakephp.org">CakePHP: the rapid development php framework</a></h1>
+		</div>
+		<div id="content">
+
+			
+			<h2>Missing Controller</h2>
+<p class="error">
+	<strong>Error: </strong>
+	<em>CssController</em> could not be found.</p>
+<p class="error">
+	<strong>Error: </strong>
+	Create the class <em>CssController</em> below in file: app/Controller/CssController.php</p>
+<pre>
+&lt;?php
+class CssController extends AppController {
+
+}
+</pre>
+<p class="notice">
+	<strong>Notice: </strong>
+	If you want to customize this error message, create app/View/Errors/missing_controller.ctp</p>
+
+<h3>Stack Trace</h3>
+<ul class="cake-stack-trace">
+	<li><a href="#" onclick="traceToggle(event, 'file-excerpt-0')">APP/webroot/index.php line 108</a> &rarr; <a href="#" onclick="traceToggle(event, 'trace-args-0')">Dispatcher->dispatch(CakeRequest, CakeResponse)</a> <div id="file-excerpt-0" class="cake-code-dump" style="display:none;"><pre><code><span style="color: #000000"><span style="color: #0000BB">$Dispatcher</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dispatch</span><span style="color: #007700">(</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">new&nbsp;</span><span style="color: #0000BB">CakeRequest</span><span style="color: #007700">(),</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">new&nbsp;</span><span style="color: #0000BB">CakeResponse</span><span style="color: #007700">()</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB"></span><span style="color: #007700">);</span></span></code></span>
+<code><span style="color: #000000"><span style="color: #0000BB"></span></span></code></pre></div> <div id="trace-args-0" class="cake-code-dump" style="display: none;"><pre>object(CakeRequest) {
+	params =&gt; array(
+		[maximum depth reached]
+	)
+	data =&gt; array([maximum depth reached])
+	query =&gt; array([maximum depth reached])
+	url =&gt; &#039;css/frontend/SCRIPTBL.woff&#039;
+	base =&gt; &#039;&#039;
+	webroot =&gt; &#039;/&#039;
+	here =&gt; &#039;/css/frontend/SCRIPTBL.woff&#039;
+	[protected] _detectors =&gt; array(
+		[maximum depth reached]
+	)
+	[protected] _input =&gt; &#039;&#039;
+}
+object(CakeResponse) {
+	[protected] _statusCodes =&gt; array(
+		[maximum depth reached]
+	)
+	[protected] _mimeTypes =&gt; array(
+		[maximum depth reached]
+	)
+	[protected] _protocol =&gt; &#039;HTTP/1.1&#039;
+	[protected] _status =&gt; (int) 200
+	[protected] _contentType =&gt; &#039;text/html&#039;
+	[protected] _headers =&gt; array([maximum depth reached])
+	[protected] _body =&gt; null
+	[protected] _file =&gt; null
+	[protected] _fileRange =&gt; null
+	[protected] _charset =&gt; &#039;UTF-8&#039;
+	[protected] _cacheDirectives =&gt; array([maximum depth reached])
+	[protected] _cookies =&gt; array([maximum depth reached])
+}</pre></div></li>
+</ul>
+<script type="text/javascript">
+function traceToggle(event, id) {
+	var el = document.getElementById(id);
+	el.style.display = (el.style.display === 'block') ? 'none' : 'block';
+	event.preventDefault();
+	return false;
+}
+</script>
+		</div>
+		<div id="footer">
+			<a href="http://www.cakephp.org/" target="_blank" id="cake-powered"><img src="/img/cake.power.gif" alt="CakePHP: the rapid development php framework" border="0" /></a>			<p>
+				CakePHP 2.5.3			</p>
+		</div>
+	</div>
+	</body>
+</html>

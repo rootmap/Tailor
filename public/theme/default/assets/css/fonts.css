@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src:  url('../fonts/Brandon%20Text.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BrandonText-Bold';
+  src: url('../fonts/BrandonText-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Text Light';
+  src: url('../fonts/Brandon%20Text%20Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BrandonText-ExtraBold';
+  src: url('../fonts/BrandonText-ExtraBold.woff') format('woff');
+}
